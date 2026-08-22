@@ -50,7 +50,7 @@ responsibility is yours, not the application's.
 
 ## Contact
 
-Questions about this policy: **nagyb78@gmail.com**
+Questions about this policy: **hello@getears.app**
 
 ## Changes
 
