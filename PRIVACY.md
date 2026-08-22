@@ -23,9 +23,32 @@ of a call. It does not read pages other than the three meeting services above.
 It has no account, no analytics, no tracking and no advertising. It does not
 store anything itself.
 
-**What the developer receives: nothing.** There is no server operated by the
-developer of Ears. No information from the extension is sent to the developer or
-to any third party.
+**What the developer receives from the extension: nothing.** No information the
+extension reads is sent to the developer or to any third party. The extension
+talks only to the Ears app on the same computer; it plays no part in
+registration and never contacts the licence service.
+
+## Registering Ears
+
+Ears asks for an email address the first time it runs. Registering is optional —
+the app works either way — and this is what happens if you do.
+
+**What is sent, to the licence service at getlicence.app:** your email address, a
+random identifier generated for that installation, and the app and macOS
+versions. Nothing else.
+
+**Why:** to issue the licence the app holds, and to renew it. The app checks in
+roughly every thirty days, when you open it or after a meeting finishes, which
+also tells me an installation is still in use. If you tick the separate box for
+it, the address is also used to email you occasionally about Ears; leaving it
+unticked means the address is used for licensing only.
+
+**What is never sent:** your meetings, recordings, transcripts, notes,
+screenshots or anything said in a call. The licence service never sees them.
+
+**Deleting it:** Settings ▸ Licence ▸ Delete my registration removes your email
+address and that installation from the service entirely. Nothing on your Mac is
+affected and Ears keeps working.
 
 ## The Ears application
 
